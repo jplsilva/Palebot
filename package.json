@@ -1,7 +1,7 @@
 {
-  "name": "Discordjs",
+  "name": "Palebot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord bot made with Typescript and Node.js",
   "main": "src/index.ts",
   "scripts": {
     "dbml": "npx knex migrate:latest --knexfile ./src/database/knexfile.js",
@@ -11,8 +11,8 @@
     "start": "ts-node ./dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "jplsilva",
+  "license": "Apache-2.0",
   "devDependencies": {
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",

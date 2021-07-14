@@ -1,2 +1,3 @@
 # Palebot
-A Discord bot made with Typescript and Node.js
+
+A Discord bot made with Discordjs, Typescript, Node.js and Knex
