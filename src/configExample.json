@@ -1,0 +1,39 @@
+{
+    "ServerConfig": {
+        "port": "8080"
+    },
+    "DatabaseConfig": {
+        "development": {
+            "client": "mssql",
+            "connection": {
+                "host": "127.0.0.1",
+                "port": 1433,
+                "database": "palebot",
+                "user": "Palebot",
+                "password": "",
+                "options": {
+                    "enableArithAbort": true
+                }
+            },
+            "pool": {
+                "min": 2,
+                "max": 10
+            },
+            "migrations": {
+                "tableName": "knex_migrations"
+            }
+        }
+    },
+    "BotConfig": {
+        "token": "BOT_TOKEN",
+        "prefix": "!#",
+        "partials": ["USER", "CHANNEL", "GUILD_MEMBER", "MESSAGE", "REACTION"]
+    },
+    "LoggerConfig": {
+        "level": "debug",
+        "colorize": true,
+        "timestampFormat": "DD/MM/YYYY HH:mm:ss:ms",
+        "consoleLogging": true,
+        "logFile": "logs/main.log"
+    }
+}
